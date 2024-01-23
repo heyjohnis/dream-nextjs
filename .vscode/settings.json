@@ -1,0 +1,11 @@
+{
+  "cSpell.words": ["registed"],
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#453277",
+    "titleBar.inactiveBackground": "#453277",
+    "titleBar.activeForeground": "#a8a5af",
+    "titleBar.inactiveForeground": "#a8a5af",
+    "statusBar.background": "#453277",
+    "statusBar.foreground": "#a8a5af"
+  }
+}
