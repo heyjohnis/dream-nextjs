@@ -1,11 +1,11 @@
 {
   "cSpell.words": ["registed"],
   "workbench.colorCustomizations": {
-    "titleBar.activeBackground": "#453277",
-    "titleBar.inactiveBackground": "#453277",
-    "titleBar.activeForeground": "#a8a5af",
-    "titleBar.inactiveForeground": "#a8a5af",
-    "statusBar.background": "#453277",
-    "statusBar.foreground": "#a8a5af"
+    "titleBar.activeBackground": "#741818",
+    "titleBar.inactiveBackground": "#741818",
+    "titleBar.activeForeground": "#d1d1d1",
+    "titleBar.inactiveForeground": "#d1d1d1",
+    "statusBar.background": "#741818",
+    "statusBar.foreground": "#d1d1d1"
   }
 }
