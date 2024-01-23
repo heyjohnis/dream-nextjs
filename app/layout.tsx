@@ -16,7 +16,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <nav className="flex items-center justify-between p-4">
+          <a href="/">Home</a>
+          <a href="/products">Products</a>
+        </nav>
+        {children}
+      </body>
     </html>
   );
 }
