@@ -5,8 +5,11 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "TJC Daebang Portal",
-  description: "TJC Daebang Portal",
+  title: "Products 제품 판매 사이트",
+  description: "Products 제품 판매 사이트",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({

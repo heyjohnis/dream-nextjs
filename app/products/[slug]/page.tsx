@@ -5,6 +5,17 @@ type Props = {
     slug: string;
   };
 };
+// export const metadata = {
+//   title: "제품 판매 ",
+//   description: "제품 판매 ",
+// };
+// link: https://nextjs.org/docs/app/building-your-application/optimizing/metadata
+export function generateMetadata({ params }: Props) {
+  return {
+    title: `${params.slug} 제품 판매`,
+    description: `${params.slug} 제품 판매`,
+  };
+}
 
 export default function page({ params }: Props) {
   return <div>{params.slug} page</div>;
