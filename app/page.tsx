@@ -1,11 +1,9 @@
 import Image from "next/image";
-import { notFound } from "next/navigation";
+import { Inter } from "next/font/google";
+import styles from "./page.module.css";
+
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  // notFound();
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1 className="text-4xl font-bold">TJC Daebang Portal</h1>
-    </main>
-  );
+  return <h1>홈페이지다!!</h1>;
 }
